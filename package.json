@@ -1,0 +1,25 @@
+{
+  "name": "offline-notes",
+  "version": "1.0.0",
+  "description": "Offline-first notes: IndexedDB replicas, version vectors, three-way merge, service worker app shell",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "node server/index.js",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "engines": { "node": ">=21" },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
