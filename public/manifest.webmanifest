@@ -1,0 +1,8 @@
+{
+  "name": "Offline Notes",
+  "short_name": "Notes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3d5a80"
+}
