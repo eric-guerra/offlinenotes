@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+html, body, #root, .app { height: 100%; margin: 0; }
+body { font: 15px/1.5 -apple-system, "Segoe UI", Arial, sans-serif; color: #293241; }
+.app { display: grid; grid-template-columns: 300px 1fr; }
+aside { border-right: 1px solid #e0e0e0; padding: 12px; overflow-y: auto; background: #f7f9fb; }
+aside ul { list-style: none; padding: 0; margin: 0; }
+aside li { padding: 10px; border-radius: 6px; cursor: pointer; position: relative; }
+aside li.active, aside li:hover { background: #e0fbfc; }
+.row { display: flex; gap: 6px; }
+input, textarea { font: inherit; padding: 8px; border: 1px solid #d0d7de; border-radius: 6px; width: 100%; }
+button { font: inherit; padding: 7px 12px; border: 1px solid #3d5a80; background: #3d5a80; color: #fff; border-radius: 6px; cursor: pointer; white-space: nowrap; }
+button.danger { background: #fff; color: #c1121f; border-color: #c1121f; margin-top: 8px; }
+main { padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+.title { font-size: 22px; font-weight: 700; border: 0; padding: 4px 0; }
+.tags { border: 0; color: #6c757d; padding: 4px 0; }
+.body { flex: 1; resize: none; font-family: ui-monospace, Menlo, monospace; }
+.muted { color: #6c757d; font-size: 13px; }
+.net { font-size: 12px; margin: 8px 0; } .net.off { color: #c1121f; } .net.on { color: #2a9d8f; }
+.badge { background: #ffb703; border-radius: 10px; padding: 0 6px; font-size: 11px; margin-left: 6px; }
+.dot { position: absolute; right: 10px; top: 14px; width: 8px; height: 8px; border-radius: 50%; background: #ee6c4d; }
+.conflict { background: #fff3cd; border: 1px solid #ffe08a; padding: 12px; border-radius: 8px; }
+.sides { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 0; }
+.sides pre { background: #fff; padding: 8px; white-space: pre-wrap; max-height: 200px; overflow: auto; }
